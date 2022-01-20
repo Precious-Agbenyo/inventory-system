@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+/* base styles */
+* {
+  padding: 0px;
+  margin-left: 25px;
+  color: #140c0e;
+}
+
+.navbar {
+  padding: 10px;
+  display: grid;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+  border-bottom: 8px solid #f2f2f2;
+}
+
+.navbar h1 {
+  margin-top: 10px;
+  
+}
+
+.navbar .links {
+  margin-left: 600px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 200px;
+}
+
+.navbar button{
+  background-color: black;
+  color: whitesmoke;
+  padding: 3px;
+  width: 50px;
+}
+
+.navbar button:hover{
+  color: pink;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+.navbar a:hover {
+  color: #8b0e0e;
+}
+.content {
+  max-width: unset;
+  margin: 0px;
+  padding: 20px;
+}
+
+/* table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+} */
+
+/* item previews / list */
+
+.item-lists{
+  color: #140c0e;
+    font-size: 14px;
+    background-color: rgb(185, 177, 177);
+}
+
+.item-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+}
+.item-preview:hover {
+  box-shadow: 10px 10px 10px rgba(0,0,0,0.1);
+}
+
+.item-preview h2 {
+  font-size: 17px;
+  color: rgb(11, 11, 129);
+  margin-bottom: 8px;
+}
+
+.item-preview p {
+  font-size: 15px;
+  color: #220c12;
+  margin-bottom: 8px;
+}
+
+.item-preview button {
+  font-size: 15px;
+  color: #231947;
+  margin-bottom: 8px; 
+}
+
+.item-preview button:hover {
+  color: #e21833;
+
+}
+
+.create {
+  max-width: 400px;
+  margin: 0 auto;
+  text-align: center;
+}
+.create label {
+  text-align: left;
+  display: block;
+  font-size: 20px;
+  color: #140c0e;
+  padding: 2px;
+}
+.create h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: black;
+}
+.create input, .create textarea, .create select {
+  width:100%;
+  padding: 10px 5px;
+  margin: 10px 0;
+  border: 1px solid rgb(46, 28, 109);
+  box-sizing: border-box;
+  display: inline;
+  color: #161212;
+}
+
+.create button {
+  background: #140c0e;
+  color: #fff;
+  border: 0;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.item-preview a{
+  text-decoration: none;
+}
+
+.item-details p {
+  width: 100%;
+  margin: 30px;
+  align-items: center;
+  line-height: 2;
+}
